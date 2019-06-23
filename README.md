@@ -15,22 +15,22 @@ npm install
 npm run dev
 ```
 ## Usage
-### Homepage: (On your localhost:3000)  
-![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/01.png =250x)
+#### Homepage: (On your localhost:3000)  
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/01.png){ width: 200px; }
 
-### Uplaod your invoice XML file: (* Your XML data/file format should looks like those examples: /example_data/xxx.xml)  
-![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/02.png =250x)
+#### Uplaod your invoice XML file: (* Your XML data/file format should looks like those examples: /example_data/xxx.xml)  
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/02.png){ width: 200px; }
 
-### File uplaoded:  
-![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/03.png =250x)
+#### File uplaoded:  
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/03.png){ width: 200px; }
 
-### Invoices Table: (* Table will be updated automatically)  
-![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/04.png =250x)
+#### Invoices Table: (* Table will be updated automatically)  
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/04.png){ width: 200px; }
 
-### Sorttable table: (Just click on the column header)  
-![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/05.png =250x)
+#### Sorttable table: (Just click on the column header)  
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/05.png){ width: 200px; }
 
-### Expandable table: (Just click on the row)  
-![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/06.png =250x)
+#### Expandable table: (Just click on the row)  
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/06.png){ width: 200px; }
 
 That's all!
