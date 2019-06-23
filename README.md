@@ -15,6 +15,26 @@ npm install
 npm run dev
 ```
 ## Usage
-
+### Homepage on your localhost:3000:
 ![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/01.png)
 
+### Uplaod your invoice XML file:
+(* Your XML data/file format should looks like those examples: /example_data/xxx.xml)
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/02.png)
+
+### File uplaoded:
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/03.png)
+
+### Invoices Table:
+(* Table will be updated automatically)
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/04.png)
+
+### Sorttable table:
+(Just click on the column header)
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/05.png)
+
+### Expandable table:
+(Just click on the row)
+![alt text](https://raw.githubusercontent.com/chenchienhao/simple_invoices_viewer/master/img/06.png)
+
+That's all!
