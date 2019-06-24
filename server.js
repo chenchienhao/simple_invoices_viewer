@@ -3,6 +3,8 @@ const fileUpload = require('express-fileupload');
 const app = express();
 const fs = require('fs');
 const path = require('path');
+const normalizePort = port => parseInt(port,10);
+const Port = normalizePort(process.env.PORT || 5000);
 const parseString = require('xml2js').parseString;
 const { promisify } = require('util');
 const readFileAsync = promisify(fs.readFile);
@@ -29,13 +31,6 @@ function readXMLFile( filename) {
          (err, xml) => err ? reject(err) : resolve( xml)
       );
   });
-}
-async function addNames( placeName, csvFile) {
-  let csv = await readCsvFile( csvFile);
-  let arrays = await decodeCsv( csv);
-  let names = arrays.map( item => item[0].toString());
-  placeName.push.apply( placeName, names);
-  return placeName;
 }
 // Get data Endpoint
 app.get('/invoices', async (req, res) => {
@@ -79,4 +74,4 @@ app.post('/upload', (req, res) => {
   });
 });
 
-app.listen(5000, () => console.log('Server Started...'));
+app.listen(Port, () => console.log('Server Started...'));
