@@ -3,6 +3,10 @@
 > This is a full stack React-Express app "Simple Invoices Viewer".
 The source-origin is from: https://github.com/bradtraversy/react_file_uploader.
 
+## Demo on Heroku
+https://simple-invoices-app.herokuapp.com/
+
+
 ## Quick Start
 
 ```bash
